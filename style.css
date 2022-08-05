@@ -1,0 +1,59 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT
+    background-color: lightgreen;
+    text-align:center;
+}
+.cuerpo p {
+    font-size: 140%;
+}
+footer p { 
+    font-size: 140%;
+}
+.cabecera{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+.cabecera nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0rem 1rem;
+}
+
+h1,h2,h3,h5,h6 {
+    flex-wrap: wrap;
+    color:black;
+    font-size: 30px;
+    font-family: comic Sans MS,sans-serif;
+    
+}
+h1{
+    background-color:beige;
+}
+    
+.padre {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+background-color: pink;
+flex-direction: row;
+}
+.hijo {
+display: flex;
+width: 20%;
+height: 5%;
+justify-content: center;
+background-color: lightsalmon;
+padding: 2%;
+margin: 5px;
+}
+
+
+.pie ul li{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 1rem 0rem;
+
+}
